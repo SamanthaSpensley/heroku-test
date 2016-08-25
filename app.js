@@ -7,7 +7,7 @@ const port = process.env.PORT
 const app = express();
 
 app.get('/', (req, res, next) => {
-  res.json({message: "I am working"})
+  res.json({message: "I am working on new features!"})
 })
 
 console.log(process.env);
