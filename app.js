@@ -1,3 +1,5 @@
+"use strict"; //to allow heroku to use ES6
+
 require('dotenv').config();
 const express = require('express')
 const port = process.env.PORT
